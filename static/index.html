@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="一起造物：发现创造者活动，报名参与共创、设计与作品交流。本地拍摄演示。">
+  <title>一起造物 · Makers Club</title>
+  <link rel="icon" href="/poster.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/tokens.css">
+  <link rel="stylesheet" href="/style.css">
+  <script defer src="/ui.js"></script>
+  <script defer src="/app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">跳到主要内容</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="#home" aria-label="一起造物首页"><span class="brand-mark" aria-hidden="true">m.</span><span>一起造物<small>MAKERS CLUB</small></span></a>
+      <nav id="main-nav" aria-label="主导航"><a href="#home" id="home-link">发现活动</a><span id="member-links"></span></nav>
+      <div class="header-actions"><span class="stage-badge" id="stage-label">本地演示</span><span id="account-actions"></span></div>
+    </div>
+  </header>
+  <main id="main-content" tabindex="-1"><div class="loading-view" role="status">正在打开活动空间…</div></main>
+  <footer class="site-footer"><div class="footer-inner"><strong>一起造物 <span aria-hidden="true">↗</span></strong><span>让有趣的人，做点有意思的事。</span><small>本地演示 · 活动、地点与账号均为模拟资料</small></div></footer>
+  <dialog id="main-dialog" aria-labelledby="dialog-title"><form id="dialog-close-form" method="dialog" novalidate><button class="icon-button dialog-close" type="submit" value="close" aria-label="关闭弹窗">×</button></form><div id="dialog-content"></div><form id="discard-prompt" class="notice" method="dialog" novalidate hidden><p>还有未保存的修改。关闭后，本次修改将丢失。</p><button class="button secondary" type="submit" value="continue">继续编辑</button> <button class="button secondary" type="submit" value="discard">放弃修改并关闭</button></form></dialog>
+  <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+</body>
+</html>
